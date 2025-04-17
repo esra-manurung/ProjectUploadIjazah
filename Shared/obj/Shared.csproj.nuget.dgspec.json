@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectUploadIjazah\\Shared\\Shared.csproj": {}
+    "D:\\20250417\\ProjectUploadIjazah\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "D:\\ProjectUploadIjazah\\Shared\\Shared.csproj": {
+    "D:\\20250417\\ProjectUploadIjazah\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectUploadIjazah\\Shared\\Shared.csproj",
+        "projectUniqueName": "D:\\20250417\\ProjectUploadIjazah\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "D:\\ProjectUploadIjazah\\Shared\\Shared.csproj",
+        "projectPath": "D:\\20250417\\ProjectUploadIjazah\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\esra_dm.p\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectUploadIjazah\\Shared\\obj\\",
+        "outputPath": "D:\\20250417\\ProjectUploadIjazah\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
