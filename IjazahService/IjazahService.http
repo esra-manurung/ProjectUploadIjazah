@@ -1,0 +1,6 @@
+@IjazahService_HostAddress = http://localhost:5231
+
+GET {{IjazahService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

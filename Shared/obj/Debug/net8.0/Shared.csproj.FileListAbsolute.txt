@@ -1,0 +1,11 @@
+D:\ProjectUploadIjazah\Shared\bin\Debug\net8.0\Shared.deps.json
+D:\ProjectUploadIjazah\Shared\bin\Debug\net8.0\Shared.dll
+D:\ProjectUploadIjazah\Shared\bin\Debug\net8.0\Shared.pdb
+D:\ProjectUploadIjazah\Shared\obj\Debug\net8.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectUploadIjazah\Shared\obj\Debug\net8.0\Shared.AssemblyInfoInputs.cache
+D:\ProjectUploadIjazah\Shared\obj\Debug\net8.0\Shared.AssemblyInfo.cs
+D:\ProjectUploadIjazah\Shared\obj\Debug\net8.0\Shared.csproj.CoreCompileInputs.cache
+D:\ProjectUploadIjazah\Shared\obj\Debug\net8.0\Shared.dll
+D:\ProjectUploadIjazah\Shared\obj\Debug\net8.0\refint\Shared.dll
+D:\ProjectUploadIjazah\Shared\obj\Debug\net8.0\Shared.pdb
+D:\ProjectUploadIjazah\Shared\obj\Debug\net8.0\ref\Shared.dll

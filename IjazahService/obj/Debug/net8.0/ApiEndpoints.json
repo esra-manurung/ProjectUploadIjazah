@@ -1,0 +1,107 @@
+[
+  {
+    "ContainingType": "IjazahService.Controllers.IjazahController",
+    "Method": "Delete",
+    "RelativePath": "api/Ijazah/DeleteIjzahbyId/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IjazahService.Controllers.IjazahController",
+    "Method": "DownloadById",
+    "RelativePath": "api/Ijazah/download/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IjazahService.Controllers.IjazahController",
+    "Method": "DownloadAll",
+    "RelativePath": "api/Ijazah/download/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IjazahService.Controllers.IjazahController",
+    "Method": "MyIjazahs",
+    "RelativePath": "api/Ijazah/GetAllIjazah",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IjazahService.Controllers.IjazahController",
+    "Method": "GetById",
+    "RelativePath": "api/Ijazah/GetIjazahbyId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IjazahService.Controllers.IjazahController",
+    "Method": "UpdateFileName",
+    "RelativePath": "api/Ijazah/UpdateIjazahbyId/{id}/rename",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newFileName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IjazahService.Controllers.IjazahController",
+    "Method": "Upload",
+    "RelativePath": "api/Ijazah/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
