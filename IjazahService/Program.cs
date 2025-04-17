@@ -60,7 +60,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
             IssuerSigningKey = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes("super_secret_key_that_is_very_secure_123")
+                Encoding.UTF8.GetBytes("super_secret_key_that_is_very_secure_12")
             ),
             NameClaimType = ClaimTypes.Name
         };
