@@ -21,3 +21,4 @@ D:\20250417\ProjectUploadIjazah\Shared\obj\Debug\net8.0\Shared.dll
 D:\20250417\ProjectUploadIjazah\Shared\obj\Debug\net8.0\refint\Shared.dll
 D:\20250417\ProjectUploadIjazah\Shared\obj\Debug\net8.0\Shared.pdb
 D:\20250417\ProjectUploadIjazah\Shared\obj\Debug\net8.0\ref\Shared.dll
+D:\ProjectUploadIjazah\Shared\obj\Debug\net8.0\Shared.sourcelink.json

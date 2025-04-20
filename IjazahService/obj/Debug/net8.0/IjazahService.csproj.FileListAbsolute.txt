@@ -179,3 +179,4 @@ D:\20250417\ProjectUploadIjazah\IjazahService\obj\Debug\net8.0\refint\IjazahServ
 D:\20250417\ProjectUploadIjazah\IjazahService\obj\Debug\net8.0\IjazahService.pdb
 D:\20250417\ProjectUploadIjazah\IjazahService\obj\Debug\net8.0\IjazahService.genruntimeconfig.cache
 D:\20250417\ProjectUploadIjazah\IjazahService\obj\Debug\net8.0\ref\IjazahService.dll
+D:\ProjectUploadIjazah\IjazahService\obj\Debug\net8.0\IjazahService.sourcelink.json

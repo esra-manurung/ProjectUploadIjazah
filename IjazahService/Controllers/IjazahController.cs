@@ -4,6 +4,7 @@ using IjazahService.Data;
 using IjazahService.Models;
 using Microsoft.EntityFrameworkCore;
 using System.IO.Compression;
+using IjazahService.Dtos;
 
 namespace IjazahService.Controllers
 {
@@ -101,13 +102,15 @@ namespace IjazahService.Controllers
             return Ok("Ijazah berhasil dihapus");
         }
 
-        [HttpPut("UpdateIjazahbyId/{id}/rename")]
-        public async Task<IActionResult> UpdateFileName(int id, [FromBody] string newFileName)
+        [HttpPut("UpdateIjazahbyId/{id}")]
+        public async Task<IActionResult> UpdateFileName(int id, [FromBody] UploadReq request)
         {
-            if (string.IsNullOrWhiteSpace(newFileName) || !newFileName.EndsWith(".pdf"))
+            if (string.IsNullOrWhiteSpace(request.FileName) || !request.FileName.EndsWith(".pdf"))
                 return BadRequest("Nama file tidak valid atau bukan PDF");
 
             var username = User.Identity?.Name;
+            if (username != request.UpdateBy)
+                return Unauthorized("Kamu tidak memiliki izin untuk memperbarui file ini.");
             var ijazah = await _db.Ijazahs.FirstOrDefaultAsync(x => x.Id == id && x.UploadedBy == username);
 
             if (ijazah == null)
@@ -115,14 +118,14 @@ namespace IjazahService.Controllers
 
             var currentPath = ijazah.FilePath;
             var uploadsDir = Path.GetDirectoryName(currentPath);
-            var newPath = Path.Combine(uploadsDir!, newFileName);
+            var newPath = Path.Combine(uploadsDir!, request.FileName);
 
             if (System.IO.File.Exists(currentPath))
             {
                 System.IO.File.Move(currentPath, newPath);
             }
 
-            ijazah.FileName = newFileName;
+            ijazah.FileName = request.FileName;
             ijazah.FilePath = newPath;
 
             _db.Ijazahs.Update(ijazah);

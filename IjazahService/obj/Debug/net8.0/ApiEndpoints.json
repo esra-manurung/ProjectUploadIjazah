@@ -70,7 +70,7 @@
   {
     "ContainingType": "IjazahService.Controllers.IjazahController",
     "Method": "UpdateFileName",
-    "RelativePath": "api/Ijazah/UpdateIjazahbyId/{id}/rename",
+    "RelativePath": "api/Ijazah/UpdateIjazahbyId/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -81,8 +81,8 @@
         "IsRequired": true
       },
       {
-        "Name": "newFileName",
-        "Type": "System.String",
+        "Name": "request",
+        "Type": "IjazahService.Dtos.UploadReq",
         "IsRequired": true
       }
     ],

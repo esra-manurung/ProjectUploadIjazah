@@ -181,3 +181,4 @@ D:\20250417\ProjectUploadIjazah\AuthService\obj\Debug\net8.0\refint\AuthService.
 D:\20250417\ProjectUploadIjazah\AuthService\obj\Debug\net8.0\AuthService.pdb
 D:\20250417\ProjectUploadIjazah\AuthService\obj\Debug\net8.0\AuthService.genruntimeconfig.cache
 D:\20250417\ProjectUploadIjazah\AuthService\obj\Debug\net8.0\ref\AuthService.dll
+D:\ProjectUploadIjazah\AuthService\obj\Debug\net8.0\AuthService.sourcelink.json

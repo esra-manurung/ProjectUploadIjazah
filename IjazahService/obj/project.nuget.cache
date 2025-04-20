@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BvtMkTNQ+skYJHDrIGCdEGSB2OAohxOhuzDA1vCEUzMqv3p5dETNvD8H9e3OH8fIYGeFHyGoi9y3oJFYK1N9Cg==",
+  "dgSpecHash": "q/kXhMk2AGY7CGvRFclE4SJp/jlhF0hYwondAHeAH+Duc/JZ0B0IRhKaDYsNfOpcCyu6ay9bGYEfKIr1sASkbw==",
   "success": true,
-  "projectFilePath": "D:\\20250417\\ProjectUploadIjazah\\IjazahService\\IjazahService.csproj",
+  "projectFilePath": "D:\\ProjectUploadIjazah\\IjazahService\\IjazahService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\esra_dm.p\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\esra_dm.p\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

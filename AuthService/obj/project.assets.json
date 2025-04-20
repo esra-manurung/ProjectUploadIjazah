@@ -3112,11 +3112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\20250417\\ProjectUploadIjazah\\AuthService\\AuthService.csproj",
+      "projectUniqueName": "D:\\ProjectUploadIjazah\\AuthService\\AuthService.csproj",
       "projectName": "AuthService",
-      "projectPath": "D:\\20250417\\ProjectUploadIjazah\\AuthService\\AuthService.csproj",
+      "projectPath": "D:\\ProjectUploadIjazah\\AuthService\\AuthService.csproj",
       "packagesPath": "C:\\Users\\esra_dm.p\\.nuget\\packages\\",
-      "outputPath": "D:\\20250417\\ProjectUploadIjazah\\AuthService\\obj\\",
+      "outputPath": "D:\\ProjectUploadIjazah\\AuthService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3138,8 +3138,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\20250417\\ProjectUploadIjazah\\Shared\\Shared.csproj": {
-              "projectPath": "D:\\20250417\\ProjectUploadIjazah\\Shared\\Shared.csproj"
+            "D:\\ProjectUploadIjazah\\Shared\\Shared.csproj": {
+              "projectPath": "D:\\ProjectUploadIjazah\\Shared\\Shared.csproj"
             }
           }
         }
