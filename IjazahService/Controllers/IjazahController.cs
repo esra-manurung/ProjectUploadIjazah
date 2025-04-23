@@ -21,7 +21,7 @@ namespace IjazahService.Controllers
             _db = db;
             _env = env;
         }
-
+        //Upload File
         [HttpPost("upload")]
         public async Task<IActionResult> Upload(IFormFile file)
         {
@@ -60,16 +60,16 @@ namespace IjazahService.Controllers
 
             return Ok(ijazah);
         }
-
-        [HttpGet("GetAllIjazah")]
+        //GetAllFileIjazah
+        [HttpGet("ijazah")]
         public IActionResult MyIjazahs()
         {
             var username = User.Identity?.Name;
             var files = _db.Ijazahs.Where(x => x.UploadedBy == username).ToList();
             return Ok(files);
         }
-
-        [HttpGet("GetIjazahbyId/{id}")]
+        //GetIjazahById
+        [HttpGet("ijazah/{id}")]
         public async Task<IActionResult> GetById(int id)
         {
             var username = User.Identity?.Name;
@@ -80,8 +80,8 @@ namespace IjazahService.Controllers
 
             return Ok(ijazah);
         }
-
-        [HttpDelete("DeleteIjzahbyId/{id}")]
+        //DeleteIjazahById
+        [HttpDelete("ijazah/{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             var username = User.Identity?.Name;
@@ -101,8 +101,8 @@ namespace IjazahService.Controllers
 
             return Ok("Ijazah berhasil dihapus");
         }
-
-        [HttpPut("UpdateIjazahbyId/{id}")]
+        //UpdateIjazahById
+        [HttpPut("ijazah/{id}")]
         public async Task<IActionResult> UpdateFileName(int id, [FromBody] UploadReq request)
         {
             if (string.IsNullOrWhiteSpace(request.FileName) || !request.FileName.EndsWith(".pdf"))
@@ -133,7 +133,7 @@ namespace IjazahService.Controllers
 
             return Ok("Nama file berhasil diperbarui");
         }
-
+        //DownloadFileIjazahById
         [HttpGet("download/{id}")]
         public async Task<IActionResult> DownloadById(int id)
         {
@@ -149,8 +149,8 @@ namespace IjazahService.Controllers
 
             return File(fileBytes, contentType, fileName);
         }
-
-        [HttpGet("download/all")]
+        //DownloadAllIjazah
+        [HttpGet("download")]
         public async Task<IActionResult> DownloadAll()
         {
             var username = User.Identity?.Name;
